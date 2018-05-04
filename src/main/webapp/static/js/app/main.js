@@ -26,7 +26,7 @@ var main = {
             contentType:'application/json; charset=utf-8',
             data: JSON.stringify(data)
         }).done(function() {
-            alert('¼º°ø.');
+            alert('ì„±ê³µ');
             location.reload();
         }).fail(function (error) {
             alert(error);
