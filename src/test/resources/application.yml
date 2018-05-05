@@ -6,6 +6,11 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/templates/
+      suffix: .jsp
+   
 # local 환경
 ---
 spring:
