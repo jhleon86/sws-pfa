@@ -14,7 +14,7 @@
 <body>
 
 
-<h1>스프링부트로 시작하는 웹 서비스 Ver.2</h1>
+<h1>스프링부트로 시작하는 웹 서비스 Ver.3</h1>
 
     <div class="col-md-12">
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#savePostsModal">글 등록</button>
@@ -32,14 +32,14 @@
                 </tr>
             </thead>
             <tbody id="tbody">
-            <c:forEach items="${posts}" var="post">
-                <tr>
-                    <td>${post.id}</td>
-                    <td>${post.title}</td>
-                    <td>${post.author}</td>
-                    <td>${post.modifiedDate}</td>
-                </tr>
-            </c:forEach>
+<%--             <c:forEach items="${posts}" var="post"> --%>
+<!--                 <tr> -->
+<%--                     <td>${post.id}</td> --%>
+<%--                     <td>${post.title}</td> --%>
+<%--                     <td>${post.author}</td> --%>
+<%--                     <td>${post.modifiedDate}</td> --%>
+<!--                 </tr> -->
+<%--             </c:forEach> --%>
             </tbody>
         </table>
         
