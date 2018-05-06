@@ -32,14 +32,14 @@
                 </tr>
             </thead>
             <tbody id="tbody">
-<%--             <c:forEach items="${posts}" var="post"> --%>
-<!--                 <tr> -->
-<%--                     <td>${post.id}</td> --%>
-<%--                     <td>${post.title}</td> --%>
-<%--                     <td>${post.author}</td> --%>
-<%--                     <td>${post.modifiedDate}</td> --%>
-<!--                 </tr> -->
-<%--             </c:forEach> --%>
+            <c:forEach items="${posts}" var="post">
+                <tr>
+                    <td>${post.id}</td>
+                    <td>${post.title}</td>
+                    <td>${post.author}</td>
+                    <td>${post.modifiedDate}</td>
+                </tr>
+            </c:forEach>
             </tbody>
         </table>
         
