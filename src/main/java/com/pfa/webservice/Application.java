@@ -11,7 +11,7 @@ public class Application {
 	public static final String APPLICATION_LOCATIONS = "spring.config.location="
 			+ "classpath:application.yml,"
 			+ "C:\\git\\app\\config\\sws-pfa\\real-application.yml,"  /*로컬(windows)*/
-			+ "/app/config/sws-pfa/real-application.yml"; /*EC2*/
+			+ "/home/ec2-user/app/config/sws-pfa/real-application.yml"; /*EC2*/
 
 	public static void main(String[] args) {
 		new SpringApplicationBuilder(Application.class)
